@@ -16,3 +16,12 @@ We use BERT to perform sentence embedding on each headline. This converts each h
 <h4>Cluster 1</h4>
 
 ![pie chart of article distribution in cluster 1](/images/Cluster-1-Article-Distribution.png)
+
+As can be osberved, K-Means clustering seperates the articles by publication.
+
+<h4>PCA</h4>
+
+These are the results of applying PCA on sentence embeddings to reduce the dimensions of the data set to 3-dimensions. The articles are colored by publication. Again, we can see that the articles from the same source stay together. 
+
+![3d plot after applying PCA](/images/PCA-Plot.png)
+
